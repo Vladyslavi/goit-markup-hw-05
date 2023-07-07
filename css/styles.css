@@ -192,7 +192,7 @@ button {
     width: 100%;
     height: 4px;
     border-radius: 2px;
-    background: var(--ocean, #404BBF);
+    background: #404BBF;
     content: "";
     margin-top: 20px;
 }
@@ -667,21 +667,6 @@ button {
     margin-right: 0;
 }
 
-.page {
-    position: relative;
-}
-
-.page::after {
-    position: absolute;
-    display: block;
-    width: 100%;
-    height: 4px;
-    border-radius: 2px;
-    background: var(--ocean, #2E2F42);
-    content: "";
-    margin-top: 20px;
-    bottom: -1px;
-}
 .is-hidden {
     visibility: hidden;
     opacity: 0;
