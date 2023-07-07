@@ -800,7 +800,7 @@ button {
 }
 
 .username:focus+.icon-lable {
-    fill: #2e2f42;
+    fill: #4D5AE5;
 }
 
 .comments-container {
